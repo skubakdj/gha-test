@@ -16,3 +16,4 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
       - run: git remote -v
+      - run: git status
